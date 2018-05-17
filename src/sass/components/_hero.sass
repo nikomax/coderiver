@@ -1,0 +1,47 @@
+.hero
+	color: #FFFFFF
+	padding: 300px 0
+	background-position: center
+	background-repeat: no-repeat
+	background-size: cover
+	position: relative
+	background-color: rgba(3,44,158,1)
+	overflow: hidden
+	&__content
+		text-transform: uppercase
+		max-width: 1030px
+		margin: 0 auto
+		padding: 0 40px
+		text-align: center
+	&__suptitle
+		+bold
+		font-size: 18px
+		margin-bottom: 50px
+	&__title
+		margin-bottom: 160px
+	&__triangle
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 100%
+		height: 0
+		border-top: 245px solid transparent
+		border-left: 2000px solid #FFFFFF
+		border-bottom: 0 solid transparent
+
+.person
+	&__avatar
+		border-radius: 50%
+		height: 96px
+		width: 96px
+		overflow: hidden
+		margin: 0 auto 30px
+		img
+			height: 140%
+			width: 100%
+			object-fit: cover
+			transform: scale(1.2)
+	&__desc
+		text-transform: uppercase
+		font-size: 14px
+		+bold

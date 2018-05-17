@@ -1,0 +1,44 @@
+.article
+	margin-bottom: 80px
+	&__title
+		color: #1b2550
+		margin-bottom: 45px
+	&__text
+		margin-bottom: 75px
+	&__video
+		width: 120%
+		position: relative
+		padding-top: 69%
+		iframe
+			+coverdiv
+
+.small-article
+	&__video
+		width: 100%
+		position: relative
+		padding-top: 100%
+		margin-bottom: 70px
+		img
+			display: block
+			+coverdiv
+	&__image
+		width: 100%
+		position: relative
+		padding-top: 50%
+		margin-bottom: 65px
+		img
+			display: block
+			+coverdiv
+	&__title
+		margin-bottom: 40px
+		color: #303342
+	&__date
+		margin-bottom: 45px
+		+bold
+		text-transform: uppercase
+		color: #484b59
+		letter-spacing: 2px
+	&__text
+		margin-bottom: 45px
+		max-height: 185px
+		overflow: hidden

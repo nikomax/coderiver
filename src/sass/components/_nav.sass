@@ -1,0 +1,21 @@
+.nav
+	&__item
+		display: inline-block
+		text-transform: uppercase
+		+bold
+	&__link
+		padding: 0 20px
+		position: relative
+		&:after
+			content: ''
+			position: absolute
+			height: 2px
+			background-color: #FFFFFF
+			width: 0
+			transition: 0.3s
+			top: 50%
+			left: 0
+			transform: translateY(-50%)
+		&:hover
+			&:after
+				width: 100%
